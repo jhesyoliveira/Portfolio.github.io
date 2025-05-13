@@ -1,0 +1,109 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    background-color: #000000;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    font-size: 16px; /* Aumenta o tamanho base da fonte para o body */
+}
+
+header h1,
+section h2,
+.projeto h3 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    margin-bottom: 20px; /* Aumentei um pouco a margem abaixo dos títulos */
+}
+
+header h1 {
+    font-size: 2.5em; /* Aumenta o tamanho do seu nome */
+}
+
+header {
+    background-color: #1e3a8a;
+    color: #ffffff;
+    padding: 30px; /* Aumentei o padding do cabeçalho */
+    text-align: center;
+}
+
+header p {
+    margin-top: 10px; /* Aumentei a margem do título */
+    font-size: 1.2em; /* Aumentei o tamanho do título */
+    font-style: italic;
+}
+
+section {
+    padding: 50px; /* Aumentei o padding das seções */
+    margin-bottom: 30px; /* Aumentei a margem inferior das seções */
+    background-color: #111111;
+    border-radius: 10px; /* Arredondamento um pouco maior */
+}
+
+section p,
+.projeto p {
+    text-align: justify;
+    line-height: 1.8; /* Aumentei um pouco a altura da linha */
+    margin-bottom: 20px; /* Aumentei a margem inferior dos parágrafos */
+    font-size: 1.1em; /* Aumentei o tamanho da fonte dos parágrafos */
+}
+
+section h2 {
+    color: #ffffff;
+    border-bottom: 3px solid #1e3a8a; /* Linha um pouco mais grossa */
+    padding-bottom: 15px; /* Aumentei o padding abaixo do título da seção */
+    margin-bottom: 30px; /* Aumentei a margem abaixo do título da seção */
+    font-size: 2em; /* Aumentei o tamanho do título da seção */
+}
+
+.projeto {
+    margin-bottom: 40px; /* Aumentei a margem inferior dos projetos */
+    padding: 30px; /* Aumentei o padding dos projetos */
+    border: 1px solid #222222;
+    border-radius: 8px; /* Arredondamento um pouco maior */
+}
+
+.projeto h3 {
+    color: #64b5f6;
+    margin-top: 0;
+    font-size: 1.5em; /* Aumentei o tamanho do título do projeto */
+    margin-bottom: 15px; /* Adicionei margem abaixo do título do projeto */
+}
+
+.projeto a {
+    color: #64b5f6;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em; /* Aumentei o tamanho dos links do projeto */
+}
+
+.projeto a:hover {
+    text-decoration: underline;
+}
+
+#contato p {
+    line-height: 1.7; /* Aumentei um pouco a altura da linha no contato */
+    font-size: 1.1em; /* Aumentei o tamanho da fonte no contato */
+}
+
+#contato a {
+    color: #64b5f6;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em; /* Aumentei o tamanho do link de contato */
+}
+
+#contato a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #1e3a8a;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px; /* Aumentei o padding do rodapé */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 1em; /* Aumentei o tamanho da fonte do rodapé */
+}
